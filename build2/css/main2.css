@@ -57,9 +57,12 @@ h2{
   width: 100%; height: 50px;
 }
 li{
-  display: inline;
+  display: inline-block;
 }
 *{
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   word-break: break-all;
@@ -86,7 +89,7 @@ header, main, section, footer, aside, article, nav{
 #as6{
   width: 220px;
   padding: 15px 0px;
-  margin: 20px; /* фактическая ширина 240пикс*/
+  margin: 20px; /* фактическая ширина 290пикс*/
   background-color: aquamarine;
   float: left;
 }
@@ -94,13 +97,10 @@ header, main, section, footer, aside, article, nav{
   text-align: center;
   border-top: 2px solid black;
   margin: 20px;
+  clear: both;
+  background-color: cornflowerblue;
 }
 #nav8{
   margin: 25px;
   background-color: rgb(154, 154, 154);
-}
-p{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box
 }
