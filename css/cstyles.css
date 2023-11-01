@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}	
+.new{
+	border: 40px solid brown;
+	padding: 30px;
+    width: 330px;	
+	margin: 0px;
+}
+.new1{
+	border: 40px solid brown;
+    width: 330px;
+	margin: 10px;
+}
+.new2{
+	border: 40px solid brown;
+    width: 330px;
+	margin: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+img{
+    display:block;
+	border: 40px solid brown;
+	margin: 0 auto;
+	width: 300px;
+}
+.new3{
+	border: 40px solid brown;
+    width: 330px;
+	margin: 10px;
+	padding: 15px 10px 20px 30px;
+}
+.new4{
+	border: 40px solid brown;
+    width: 330px;
+	margin: 10px;
+	padding: 10px 30px;
+}
+.first{
+	padding: 10px;
+	border: 2px solid red;
+	background-color: grey;
+}
+.second{
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid red;
+	background-color: grey;
+}
+.third{
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid red;
+	background-color: grey;
+}
+p{
+	margin: 40px;
+}
+header{
+	margin: 20px;
+	border: 1px solid brown;
+}
+.menu{
+	margin: 25px;
+	border: 20px solid brown;
+	text-align: center;
+	list-style: none;
+}
+footer{
+	text-align: center;
+	margin: 20px;
+	border-top: 2px solid brown;
+}
+body{ 
+	text-align: center;
+}
+.telo{
+	width:980px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+li{
+	float: left; 
+	margin-left: 10px;
+}
+section{
+	text-align: left;
+	width: 660px; /* 700px */
+	border: 20px solid brown;
+	margin-bottom: 20px;
+}
+aside{
+	text-align: left;
+	width: 220px; /* 260px */
+	border-top: 15px solid brown;
+	border-bottom: 15px solid brown;
+	margin: 20px;
+}
+
+	
+	
