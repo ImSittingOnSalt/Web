@@ -1,0 +1,74 @@
+/*body{
+  height: 1200px;
+}*/
+
+.priamo, .priam{
+  width: 100px; height: 100px;
+  display: inline-block;
+  border: 2px solid rgb(180, 0, 66);
+  background-color: rgb(255, 127, 153);
+  color: white;
+}
+#n3{
+  position: relative;
+  top: 20px; left: 20px;
+  border: 2px solid rgb(0, 129, 180);
+  background-color: aquamarine;
+}
+
+#n31{
+  position: absolute;
+  top: 20px; left: 20px;
+  border: 2px solid rgb(0, 129, 180);
+  background-color: aquamarine;
+}
+
+.set2{
+  width: 500px; height: 300px;
+  overflow: scroll;
+  margin-left: 150px;
+}
+.set3{
+  width: 100px; height: 100px;
+  overflow: scroll;
+  left: 150px;
+  background-color: blueviolet;
+  color: white;
+}
+
+#second{
+  position: fixed;
+  top: 80px; left: 10px;
+}
+
+dt {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}
+
+.set1{
+  width: 450px;
+  display: block;
+}
+
+#div333{
+  width: 200px;
+  height: 200px;
+}
+header{
+  position: relative;
+  background: url("../img/bg-image.png") no-repeat center;
+  z-index: 0;
+}
+header::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(190, 203, 211, 0.61);
+  inset: 0;
+  z-index: -1;
+}
