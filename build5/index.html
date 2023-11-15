@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet="UTF-8">
+  <meta name="author" content="Алиса Матвеева">
+  <meta name="description" content="Saltrres">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <header>
+    <!-- Навигационная панель + в ней внутри выпадающий список navbar + форма авторизации-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid bg-light">
+        <a class="navbar-brand text-secondary">МОХ.FANS.com</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Мох домашний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Мох дикий</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">МОХХХ</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Другие мхи
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">А</a></li>
+                    <li><a class="dropdown-item" href="#">Б</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">В???</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+              Login
+            </button>
+
+          <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Auth</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Your login" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">#</span>
+                    <input type="text" class="form-control" placeholder="Your password" aria-describedby="basic-addon2">
+                  </div>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light text-secondary">Sign up</button>
+                  <button type="button" class="btn btn-secondary">Register</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index2.html">  MoxHome</a></li>
+      <li class="breadcrumb-item active" aria-current="page">MoreAboutMOX</li>
+    </ol>
+  </nav>
+  </header>
+
+  <!-- карусель -->
+  <div id="carouselik" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/1.jpg" height="100px" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/2.jpg" height="100px" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/3.jpg" height="100px" class="d-block w-100">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselik" data-bs-slide="prev">
+        <span class="visually-showed">Prev</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselik" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-showed">Next</span>
+    </button>
+  </div>
+
+  <!-- карточки -->
+  <section class="sec1">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://cdn.discordapp.com/attachments/609574777686065182/1172891325247541278/image.png?ex=6561f72b&is=654f822b&hm=95801ee2b56cc27a89c3d2868bbfdee861e1e19349f9c142dd48d5170899101f&" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Фанаты мха</h5>
+        <p class="card-text">Ооооооооооооооооооооооооооооооооооооооооооооооооочень странные люди</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Ловушка...</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Мху посвещают песни</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Жесть согласна</h6>
+        <p class="card-text">Куда мир катится я в шоке.</p>
+        <a href="https://youtu.be/IvWL27GlZSE?si=Wo8COUm2nMOfYQMr" class="card-link">Вот например</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="card-link">И вот</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">
+        Чё-то текст какой-то
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">У меня нет идей</li>
+        <li class="list-group-item">Вообще</li>
+        <li class="list-group-item">Абсолютно</li>
+      </ul>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/4.png">
+      <div class="card-body">
+        <h5 class="card-title">Краш</h5>
+        <p class="card-text">А</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">МОХ</li>
+        <li class="list-group-item">мох?.....</li>
+        <li class="list-group-item">мох!!!!</li>
+      </ul>
+      <div class="card-body">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Ловушка...</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Ловушка...</a>
+      </div>
+    </div>
+  </section>
+
+  <footer><h1>Я ПОДВАЛ САЙТА</h1></footer>
+</body>
+</html>

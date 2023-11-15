@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "text-light";
+  font-style: normal;
+  src: local("text-light"),
+    url("../fonts/text-light.woff") format("woff");
+}
+
+h1, h6{
+  font: 2em "text-light", "Arial";
+  text-align: justify;
+  text-align-last: justify;
+}
+
+body{
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.accordion{
+  width: 800px;
+}
+
+.card{
+  margin: 20px;
+}
+
+footer{
+  background-color: rgb(231, 231, 231);
+}
+
+.sec1{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(56, 74, 92);
+}
+
+.sec2{
+  height: 600px;
+  background-color: white;
+  overflow: auto;
+
+}
+
+.sec3{
+  padding: 15px;
+  margin: 20px;
+}
+
+.sec4{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 20px;
+}
